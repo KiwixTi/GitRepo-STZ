@@ -1,12 +1,4 @@
-/* ***** KOLORY ***** */
-/* ***** CZCIAKA ***** */
-/* ***** CZCIAKA Rozmiary ***** */
-/* ***** BORDER ***** */
-/* ***** HOVERS ***** */
-/* ***** STATIC ***** */
-/* ***** HOVER ***** */
-/* ***** PRESSED ***** */
-/* ****** STYLOWANIE ****** */
+/* ************ STYLOWANIE ************ */
 * {
   font-family: "Raleway";
   margin: 0;
@@ -105,7 +97,7 @@ body main .zawartosc .rozmiar a:active {
   color: #001AFF;
 }
 
-/* ****** TABLET ****** */
+/* ************ TABLET ************ */
 @media (max-width: 834px) {
   body main {
     height: auto;
@@ -127,7 +119,7 @@ body main .zawartosc .rozmiar a:active {
     line-height: 22px;
   }
 }
-/* ****** MEDIA ****** */
+/* ************ MEDIA ************ */
 @media (max-width: 375px) {
   img {
     width: 24px;

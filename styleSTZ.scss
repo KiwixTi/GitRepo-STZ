@@ -1,4 +1,4 @@
-/* ***** KOLORY ***** */
+// ***** KOLORY ***** 
 $nibieski: #3D63AC;
 $zielony: #428A2F;
 $zolty: #B09E3D;
@@ -9,36 +9,36 @@ $czarny: #000000;
 $czarnyJasiejszy: #141414;
 $bialy: #FFFFFF;
 
-/* ***** CZCIAKA ***** */
+// ***** CZCIAKA ***** 
 $font-family: "Raleway";
 
-/* ***** CZCIAKA Rozmiary ***** */
+// ***** CZCIAKA Rozmiary ***** 
 $fontSizeDesktopTabeltLarge: 32px;
 $fontSizeDesktopTabeltMedium: 16px;
 $fontSizeMobileLarge: 26px;
 $fontSizeMobileMedium: 14px;
 $fontSizeDTMSmall: 12px;
 
-/* ***** BORDER ***** */
+// ***** BORDER ***** 
 $borderRadiusSize: 12px;
 
-/* ***** HOVERS ***** */
+// ***** HOVERS ***** 
 $hoverBorderRadius: 200px;
-/* ***** STATIC ***** */
+// ***** STATIC ***** 
 $hoverStaticBackground: $bialy;
 $hoverStaticColor: $czarny;
 
-/* ***** HOVER ***** */
+// ***** HOVER ***** 
 $hoverHoverBackground: $bialy;
 $hoverHoverColor: #001AFF;
 
-/* ***** PRESSED ***** */
+// ***** PRESSED ***** 
 $hoverPressedBackground: #F1F5FF;
 $hoverPressedColor: #001AFF;
 
 
-/* ****** STYLOWANIE ****** */
-
+/* ************ STYLOWANIE ************ */
+// NAPISAĆ NA NOWO Z HERMETYCZNĄŚCIĄ " & " I BEM
 * {
     font-family: $font-family;
     margin: 0;
@@ -143,7 +143,7 @@ body {
     }
 }
 
-/* ****** TABLET ****** */
+/* ************ TABLET ************ */
 @media (max-width: 834px) {
     body{
         
@@ -177,7 +177,7 @@ body {
     }
 }
 
-/* ****** MEDIA ****** */
+/* ************ MEDIA ************ */
 @media (max-width: 375px) {
     img {
         width: 24px;
