@@ -1,0 +1,109 @@
+@import url('styleSTZ-difult.scss');
+
+/* ************ STYLOWANIE ************ */
+// NAPISAĆ NA NOWO Z HERMETYCZNĄŚCIĄ " & &__klasa " I BEM
+* {
+    font-family: $font-family;
+    margin: 0;
+}
+
+.zaleta1 {
+    background-color: $zielonyJasny;
+}
+.zaleta2 {
+    background-color: $nibieskiJasny;
+}
+.zaleta3 {
+    background-color: $zoltyJasny;
+}
+
+.ico1 {
+    background-color: $zielony;
+}
+.ico2 {
+    background-color: $nibieski;
+}
+.ico3 {
+    background-color: $zolty;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
+
+body {
+    height: 100vh;
+   
+    main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1em;
+    
+        .zawartosc {
+            border-radius: $borderRadiusSize;
+            max-width: 23em;
+
+            .rozmiar {
+                margin: 2em;
+                
+                .ico-format {
+                    margin: 0;
+                    width: 4.5em;
+                    height: 4.5em;
+                    border-radius: 50%;
+                }
+                
+                article {
+                    
+                    .naglowek {
+                        margin: 24px 0 16px 0;
+                        font-size: $fontSizeDesktopTabeltLarge;
+                        line-height: 38px;
+                        font-weight: 700;
+                    }
+                    
+                    .opis {
+                        margin: 16px 0 24px 0;
+                        font-size: $fontSizeDesktopTabeltMedium;
+                        line-height: 22px;
+                        font-weight: 400;
+                    }
+                    
+                }
+                
+                a {
+                    display: inline-block;
+                    padding: 14px 19px 15px 24px;
+                    background-color: $hoverStaticBackground;
+                    color: $hoverStaticColor;
+                    border-radius: $hoverBorderRadius;
+                    text-decoration: none;
+                    font-size: $fontSizeDTMSmall;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+                a:hover {
+                    background-color: $hoverHoverBackground;
+                    color: $hoverHoverColor;
+                    transition: .2s;
+                }
+                a:active {
+                    background-color: $hoverPressedBackground;
+                    color: $hoverPressedColor;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}

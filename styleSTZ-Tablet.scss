@@ -1,0 +1,37 @@
+@import url('styleSTZ-difult.scss');
+@import url('styleSTZ-Desktop.scss');
+
+
+/* ************ TABLET ************ */
+@media (max-width: 834px) {
+    body{
+        
+        main {
+            height: auto;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        
+            .zawartosc {
+                max-width: 100%;
+                margin: 0 41px;
+    
+                .rozmiar {
+                    margin: 1.5em;
+
+                    article {
+                        
+                        .naglowek {
+                            margin: 16px 0 8px 0;
+                        }
+                        
+                        .opis {
+                            margin: 8px 0 16px 0;
+                            line-height: 22px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

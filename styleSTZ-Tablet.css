@@ -1,0 +1,24 @@
+@import url("styleSTZ-difult.scss");
+@import url("styleSTZ-Desktop.scss");
+/* ************ TABLET ************ */
+@media (max-width: 834px) {
+  body main {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  body main .zawartosc {
+    max-width: 100%;
+    margin: 0 41px;
+  }
+  body main .zawartosc .rozmiar {
+    margin: 1.5em;
+  }
+  body main .zawartosc .rozmiar article .naglowek {
+    margin: 16px 0 8px 0;
+  }
+  body main .zawartosc .rozmiar article .opis {
+    margin: 8px 0 16px 0;
+    line-height: 22px;
+  }
+}/*# sourceMappingURL=styleSTZ-Tablet.css.map */
