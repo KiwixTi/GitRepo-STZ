@@ -91,10 +91,12 @@ body main .zawartosc .rozmiar a {
 body main .zawartosc .rozmiar a:hover {
   background-color: #FFFFFF;
   color: #001AFF;
+  transition: 0.2s;
 }
 body main .zawartosc .rozmiar a:active {
   background-color: #F1F5FF;
   color: #001AFF;
+  transition: 0.2s;
 }
 
 /* ************ TABLET ************ */

@@ -132,11 +132,13 @@ body {
                 }
                 a:hover {
                     background-color: $hoverHoverBackground;
-                    color: $hoverHoverColor
+                    color: $hoverHoverColor;
+                    transition: .2s;
                 }
                 a:active {
                     background-color: $hoverPressedBackground;
                     color: $hoverPressedColor;
+                    transition: .2s;
                 }
             }
         }
