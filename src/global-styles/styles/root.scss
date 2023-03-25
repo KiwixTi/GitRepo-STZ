@@ -1,0 +1,41 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+:root {
+    
+--nibieski: #3D63AC;
+--zielony: #428A2F;
+--zolty: #B09E3D;
+--nibieskiJasny: #E4E9F3;
+--zielonyJasny: #E5EFE2;
+--zoltyJasny: #F4F1E4;
+--czarny: #000000;
+--czarnyJasiejszy: #141414;
+--bialy: #FFFFFF;
+
+
+--font-family: "Raleway";
+
+--fontSizeDesktopTabeltLarge: 32px;
+--fontSizeDesktopTabeltMedium: 16px;
+--fontSizeMobileLarge: 26px;
+--fontSizeMobileMedium: 14px;
+--fontSizeDTMSmall: 12px;
+
+
+--borderRadiusSize: 12px;
+
+
+--hoverBorderRadius: 200px;
+
+--hoverStaticBackground: var(--bialy);
+--hoverStaticColor: --czarny;
+
+--hoverHoverBackground: var(--bialy);
+--hoverHoverColor: #001AFF;
+
+--hoverPressedBackground: #F1F5FF;
+--hoverPressedColor: #001AFF;
+
+}
