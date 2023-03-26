@@ -3,6 +3,16 @@
 
 @import url('/src/global-styles/styles/root.scss');
 
+
+.kontener-pierwszy {
+    background-color: var(--zielonyJasny);
+}
+.kontener-drugi {
+    background-color: var(--niebieskiJasny);
+}
+.kontener-trzeci {
+    background-color: var(--zoltyJasny);
+}
 .home-page {
     display: flex;
     
