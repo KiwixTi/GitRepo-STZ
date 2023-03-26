@@ -20,12 +20,16 @@
 --fontSizeMobileMedium: 14px;
 --fontSizeDTMSmall: 12px;
 
+--fontWeightLargeBold: 700;
+--fontWeightMediumRegular: 400;
+--fontWeightSmallRegular: 500;
+
 --borderRadiusSize: 12px;
 
 --hoverBorderRadius: 200px;
 
 --hoverStaticBackground: var(--bialy);
---hoverStaticColor: --czarny;
+--hoverStaticColor: var(--czarny);
 
 --hoverHoverBackground: var(--bialy);
 --hoverHoverColor: #001AFF;

@@ -4,17 +4,79 @@
 @import url('/src/global-styles/styles/root.scss');
 
 
-.kontener-pierwszy {
-    background-color: var(--zielonyJasny);
-}
-.kontener-drugi {
-    background-color: var(--niebieskiJasny);
-}
-.kontener-trzeci {
-    background-color: var(--zoltyJasny);
+.kontener-pierwszy { background-color: var(--zielonyJasny);}
+.kontener-drugi { background-color: var(--niebieskiJasny);}
+.kontener-trzeci { background-color: var(--zoltyJasny);}
+.ico1 { background-color: var(--zielony);}
+.ico2 { background-color: var(--niebieski);}
+.ico3 { background-color: var(--zolty);}
+img { width: 40px; height: 40px;}
+
+#home-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 100vh;
 }
 
 .home-page-kontener {
+    border-radius: var(--borderRadiusSize);
+    width: 368px;
+    box-shadow: 0px 0px 35.5252px rgba(0, 0, 0, 0.06);
 
+    & &__rozmiar {
+        padding: 32px;
+    }
+
+    & &__zdjecie {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & &__napisy {
+        color: var(--czarny);
+    }
     
+    & &__tytul {
+        font-weight: var(--fontWeightLargeBold);
+        font-size: var(--fontSizeDesktopTabeltLarge);
+        line-height: 38px;
+        margin: 24px 0 16px 0;
+    }
+    
+    & &__opis {
+        font-weight: var(--fontWeightMediumRegular);
+        font-size: var(--fontSizeDesktopTabeltMedium);
+        line-height: 22px;
+        margin: 16px 0 24px 0;
+    }
+
+    & &__link {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 19px 15px 24px;
+        gap: 6px;
+        border-radius: var(--hoverBorderRadius);
+        background-color: var(--bialy);
+        text-decoration: none;
+        color: var(--czarny);
+        font-size: var(--fontSizeDTMSmall);
+        line-height: 18px;
+    }
+    & &__link:hover {
+        color: var(--hoverHoverColor);
+        transition: .2s;
+    }
+    & &__link:active {
+        background-color: var(--hoverPressedBackground);
+        transition: .2s
+    }
 }
