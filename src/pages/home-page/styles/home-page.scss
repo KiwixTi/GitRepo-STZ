@@ -48,6 +48,7 @@ img { width: 40px; height: 40px;}
         font-size: var(--fontSizeDesktopTabeltLarge);
         line-height: 38px;
         margin: 24px 0 16px 0;
+        color: var(--czarny);
     }
     
     & &__opis {
@@ -55,6 +56,7 @@ img { width: 40px; height: 40px;}
         font-size: var(--fontSizeDesktopTabeltMedium);
         line-height: 22px;
         margin: 16px 0 24px 0;
+        color: var(--czarnyJasiejszy);
     }
 
     & &__link {
