@@ -46,7 +46,6 @@ img { width: 40px; height: 40px;}
         font-size: var(--fontSizeDesktopTabeltLarge);
         line-height: 38px;
         margin: 24px 0 16px 0;
-        color: var(--czarny);
     }
     
     & &__opis {
@@ -80,6 +79,7 @@ img { width: 40px; height: 40px;}
         transition: .2s
     }
 }
+// TABLET
 @media (max-width: 834px) {
     #home-page {
         height: auto;
@@ -87,5 +87,19 @@ img { width: 40px; height: 40px;}
     }
     .home-page-kontener {
         flex-direction: column;
+        width: 752px;
+
+        & &__rozmiar {
+            padding: 24px;
+        }
+
+        & &__tytul {
+            margin: 16px 0 8px 0;
+        }
+
+        & &__opis {
+            margin: 8px 0 16px 0;
+        }
+
     }
 }
