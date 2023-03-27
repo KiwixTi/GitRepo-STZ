@@ -82,7 +82,6 @@ img { width: 40px; height: 40px;}
 // TABLET
 @media (max-width: 834px) {
     #home-page {
-        height: auto;
         flex-direction: column;
     }
     .home-page-kontener {
@@ -100,6 +99,5 @@ img { width: 40px; height: 40px;}
         & &__opis {
             margin: 8px 0 16px 0;
         }
-
     }
 }
